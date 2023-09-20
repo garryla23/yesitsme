@@ -15,28 +15,28 @@ Leveraging dumpor.com indexing capabilities, it retrieves all usernames associat
 
 # ⚙️ Installation
 ```console
-eva@paradise:~$ git clone https://github.com/blackeko/yesitsme/
-eva@paradise:~$ cd yesitsme
-eva@paradise:~$ pip3 install -r requirements.txt
-eva@paradise:~$ python3 yesitsme.py -s SESSION_ID -n NAME -e EMAIL -p PHONE -t TIMEOUT 
+tatiana@pbrukis:~$ git clone https://github.com/blackeko/yesitsme/
+tatiana@pbrukis:~$ cd yesitsme
+tatiana@pbrukis:~$ pip3 install -r requirements.txt
+tatiana@pbrukis:~$ python3 yesitsme.py -s SESSION_ID -n NAME -e EMAIL -p PHONE -t TIMEOUT 
 ```
 
 # 🕹️ Usage
 ## Argument description
 - ```-s``` "SESSION_ID"
   - *sessionid* cookie of your Instagram account (i.e. sockpuppet);
-- ```-n``` "Name Surname"
-  - Target *name* and *surname* (case insensitive);
+- ```-n``` "Tatiana Brukis"
+  - Target *tatiana* and *Brukis* (case insensitive);
 - ```-e``` "a****z<span>@</span>domain.tld"
   - *First* and *last letter* of target e-mail;
-- ```-p``` "+39 ** 09"
+- ```-p``` "+37 ** 01"
   - *Area code* and *last two digits* of target phone number;
-- ```-t``` "10"
+- ```-t``` "05"
   - *Timeout* between each request (default = 0).
 
 ## Example
 ```console
-eva@paradise:~$ python3 yesitsme.py -s 5t3El3650d4Z7A3jA2%Y1R70vnYn%36U3 -n "John Doe" -e "j*****e@gmail.com" -p "+39 *** *** **09" -t 10
+tatiana@pbrukis:~$ python3 yesitsme.py -s 5t3El3650d4Z7A3jA2%Y1R70vnYn%36U3 -n "John Doe" -e "j*****e@gmail.com" -p "+39 *** *** **09" -t 10
 ```
 
 ## Output
